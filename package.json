@@ -1,0 +1,23 @@
+{
+  "name": "linkedin",
+  "version": "0.0.1",
+  "description": "generic oauth connection with linkedin",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tllew/linkedin_getEmailDomain.git"
+  },
+  "author": "Tomos Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tllew/linkedin_getEmailDomain/issues"
+  },
+  "homepage": "https://github.com/Tllew/linkedin_getEmailDomain#readme"
+}
