@@ -4,9 +4,29 @@
   "description": "generic oauth connection with linkedin",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.16.3"
+    "angular": "^1.6.4",
+    "angular-local-storage": "^0.7.1",
+    "body-parser": "^1.17.2",
+    "colors": "^1.1.2",
+    "debug-levels": "^0.2.0",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.11",
+    "install": "^0.11.0",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "moment": "^2.18.1",
+    "mustache": "^2.3.0",
+    "npm": "^6.1.0",
+    "request": "^2.87.0",
+    "route-parser": "0.0.5",
+    "uuid": "^3.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "1.13.5",
+    "pretty-quick": "^1.6.0"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "npm test"
@@ -20,5 +40,9 @@
   "bugs": {
     "url": "https://github.com/Tllew/linkedin_getEmailDomain/issues"
   },
-  "homepage": "https://github.com/Tllew/linkedin_getEmailDomain#readme"
+  "homepage": "https://github.com/Tllew/linkedin_getEmailDomain#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": []
 }
