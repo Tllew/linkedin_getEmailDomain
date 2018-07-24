@@ -9,11 +9,10 @@
 
 <body>
   <div>
-    <form action=>
+    <form action="/returnCSV">
       <div class="form-group">
-        <label for="domain">Domain</label>
-        <input type="text" class="form-control" id="domain" aria-describedby="domainHelp" placeholder="Enter Domain">
-        <input type="text" id="token" value="{{key}}">
+        <input type="text" class="form-control" id="domain" aria-describedby="domainHelp" name="domain" placeholder="Enter Domain">
+        <input type="text" id="token" name="token" value="{{key}}">
         <button type="submit" class="btn btn-primary">Submit</button>
       </div>
     </form>
